@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Repository Finder</title>
+    <title>Ranrepo - GitHub Repository Finder</title>
     <link rel="stylesheet" href="style.css">
     <script type="module" src="script.js"></script>
 </head>
-
+<!-- GitHub App name: ranrepo-random-repository -->
 <body>
     <main role="main">
         <div id="main-header">
@@ -27,15 +27,15 @@
             <span>Error fetching repositories</span>
         </div>
         <div id="main-content-success" class="content message success content-repo">
-            <span id="title" class="content-title"></span>
+            <span id="name" class="content-title"></span>
             <div id="description" class="content-description">
 
             </div>
             <div class="content-footer">
                 <div><img src="assets/circle.png" /><span id="language"></span></div>
-                <div><img src="assets/star.png" /> <span id="stars"></span></div>
-                <div><img src="assets/fork.png" /> <span id="forks"></span></div>
-                <div><img src="assets/exclamation.png" /> <span id="exclamations"></span></div>
+                <div><img src="assets/star.png" /> <span id="stargazers_count"></span></div>
+                <div><img src="assets/fork.png" /> <span id="forks_count"></span></div>
+                <div><img src="assets/exclamation.png" /> <span id="open_issues_count"></span></div>
             </div>
         </div>
         <div id="main-button-refresh" class="main-button content message button">
