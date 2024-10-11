@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+
+<body>
+    <main role="main">
+        <div id="main-header">
+            <div id="square"></div>
+            <h1>GitHub Repository Finder</h1>
+        </div>
+        <div id="main-languages">
+            <select name="prog-languages" id="prog-languages">
+                <option value="">Select a Language</option>
+            </select>
+        </div>
+        <div id="main-content" class="content message main-content">
+            <span>Please select a language</span>
+        </div>
+        <div id="main-content-error" class="content message main-content error">
+            <span>Error fetching repositories</span>
+        </div>
+        <div id="main-content-success" class="content message success content-repo">
+            <span id="title" class="content-title"></span>
+            <div id="description" class="content-description">
+
+            </div>
+            <div class="content-footer">
+                <div><img src="assets/circle.png" /><span id="language"></span></div>
+                <div><img src="assets/star.png" /> <span id="stars"></span></div>
+                <div><img src="assets/fork.png" /> <span id="forks"></span></div>
+                <div><img src="assets/exclamation.png" /> <span id="exclamations"></span></div>
+            </div>
+        </div>
+        <div id="main-button-refresh" class="main-button content message button">
+            <span>Refresh</span>
+        </div>
+        <div id="main-button-retry" class="main-button content message error">
+            <span>Click to Retry</span>
+        </div>
+    </main>
+    <footer>
+        <p>Alex Alves - roadmap.sh project ideas</p>
+    </footer>
+</body>
+
+</html>

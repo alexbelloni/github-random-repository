@@ -1,0 +1,118 @@
+body{
+    box-sizing: border-box;
+font-family: sans-serif;
+    margin: 0 10px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding:20px 0;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+#main-header{
+ display: flex;  
+ align-items: flex-end; 
+ justify-content: start;
+ width: 100%;
+ margin-bottom: 10px;
+}
+#main-header h1 {
+    margin:0;
+    font-size: 1.5rem;
+}
+#square{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#main-languages{
+    width: 100%;
+}
+main select{
+    width: 100%;
+    padding: 15px;
+    border: solid 2px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #BEBEBE;
+    color: black;
+}
+
+.main-content{
+    min-height: 200px;
+    
+}
+#main-content-success{
+}
+#main-content-error{
+}
+.success{
+    color: black;
+    background: white;
+    border: solid 2px black;
+}
+.content{
+    border-radius: 10px;
+    width: 100%;
+    margin: 10px 0;
+}
+.main-button{    
+    min-height: 50px;
+}
+.error{
+    color: white;
+    background: red;
+}
+.button{
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.content-repo{
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.content-title{
+    font-weight: bold;
+    margin: 10px
+}
+.content-description{
+    margin: 0px 10px ;
+    height: 100%;
+    color: gray;
+}
+.content-footer{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-end;
+}
+.content-footer div{
+    display: flex;
+    align-items: flex-end;
+}
+.content-footer img{
+    width: 16px;
+    padding-right: 4px;
+    margin-left: 0;
+}
+footer{
+    text-align: center;
+}
