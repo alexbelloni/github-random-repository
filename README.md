@@ -7,7 +7,9 @@ This GitHub Repository Finder enables users to:
 
 * Choose a programming language from a dropdown list.  
 * Retrieve and showcase a random repository via the GitHub Repository Search API.  
-* Examine essential information about the repository, including its Name, Description, Stars, Forks, and Open Issues.  
+* Examine essential information about the repository, including its Name, Description, Stars, Forks, and Open Issues.
+
+<img src="./assets/ranrepo-screenshot.jpg" style="margin-right:10px"/>
 
 ## Author
 <div style="display:flex;align-items:center;">
